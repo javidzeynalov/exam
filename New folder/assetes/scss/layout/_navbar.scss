@@ -1,0 +1,97 @@
+.container{
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head .logo{
+    max-width: 170px;
+}
+.head .logo p{
+   font-size: 14px;
+}
+
+
+.head .phone_number i{
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+
+.navbar_container{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+.navigation a{
+    color: black;
+}
+
+.res_nav{
+    overflow: hidden;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: 1s;
+}
+
+.res_nav.click_btn{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    transition: 2s;
+
+}
+
+
+
+.navbar_btn{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar_btn{
+        display: block;
+    }
+
+    .logo_img{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .logo{
+        display: none;
+    }
+    .phone_number{
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+
+   
+  }

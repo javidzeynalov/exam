@@ -1,0 +1,32 @@
+{
+  "ExamAPI": [
+    {
+      "img": "https://preview.colorlib.com/theme/immigration/img/s1.jpg.webp",
+      "name": "United states",
+      "header": "Addiction When Gambling Becomes A Problem",
+      "body": "inappropriate behavior ipsum dolor sit amet, consectetur.",
+      "id": 1
+    },
+    {
+      "img": "https://preview.colorlib.com/theme/immigration/img/s2.jpg.webp",
+      "name": "Canada",
+      "header": "Addiction When GamblingBecomes A Problem",
+      "body": "inappropriate behavior ipsum dolor sit amet, consectetur.",
+      "id": 2
+    },
+    {
+      "img": "https://preview.colorlib.com/theme/immigration/img/s3.jpg.webp",
+      "name": "Germany",
+      "header": "Addiction When GamblingBecomes A Problem",
+      "body": "inappropriate behavior ipsum dolor sit amet, consectetur.",
+      "id": 3
+    },
+    {
+      "img": "https://preview.colorlib.com/theme/immigration/img/s4.jpg.webp",
+      "name": "Australia",
+      "header": "Addiction When GamblingBecomes A Problem",
+      "body": "inappropriate behavior ipsum dolor sit amet, consectetur.",
+      "id": 4
+    }
+  ]
+}

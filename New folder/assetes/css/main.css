@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head .logo {
+  max-width: 170px;
+}
+
+.head .logo p {
+  font-size: 14px;
+}
+
+.head .phone_number i {
+  padding: 20px;
+  background-color: red;
+  color: white;
+}
+
+.navbar_container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.navigation a {
+  color: black;
+}
+
+.res_nav {
+  overflow: hidden;
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: 1s;
+}
+
+.res_nav.click_btn {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  transition: 2s;
+}
+
+.navbar_btn {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar_btn {
+    display: block;
+  }
+  .logo_img {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .logo {
+    display: none;
+  }
+  .phone_number {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+}
+.footer {
+  margin-top: 320px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon_footer {
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.home {
+  background-color: red;
+  background-image: url(/assetes/img/header-img.png.webp);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home_elements {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.text_h6 {
+  margin-top: 150px;
+}
+
+.home_elements h6 {
+  font-size: 20px;
+  color: white;
+}
+
+.text_h1 {
+  max-width: 500px;
+}
+
+.home_elements h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.home_btn {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  background-color: white;
+  width: 200px;
+  text-align: center;
+}
+
+.home_btn:hover {
+  background-color: red;
+}
+
+.home_btn a {
+  color: black;
+  font-style: bold;
+}
+
+.navbar_container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.requirements_head {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.requirements_head h1 {
+  max-width: 600px;
+  text-align: center;
+}
+
+.requirements_head p {
+  max-width: 590px;
+  text-align: center;
+}
+
+.api_name {
+  width: 100px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.cards_api {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.api_header {
+  margin-top: 15px;
+}
+
+.api_body {
+  margin-top: 10px;
+  width: 240px;
+  margin-bottom: 15px;
+}
+
+.card_get {
+  max-width: 350px;
+}
+
+.more_cards {
+  display: flex;
+}
+
+.more_card {
+  max-width: 350px;
+}
+
+.unoqued_section {
+  margin-top: 150px;
+}
+
+.uniqued_head {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.uniqued_head h1 {
+  max-width: 600px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.uniqued_head p {
+  max-width: 590px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.Unique_cards1 {
+  margin-top: 80px;
+}
+
+.cardd {
+  display: flex;
+  gap: 30px;
+}
+
+.icon_head {
+  display: flex;
+  gap: 10px;
+}
+
+.lates_header {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lates_header h1 {
+  text-align: center;
+}
+
+.lates_header p {
+  text-align: center;
+}
+
+.latest_cards {
+  margin-top: 50px;
+  display: flex;
+}
+
+.travel {
+  margin-top: 15px;
+}
+
+.travel span {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+}
+
+.latest_card h4 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.latest_card p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Unique_cards1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .unoqued_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=main.css.map */
